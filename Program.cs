@@ -52,6 +52,21 @@ namespace Quiz
                 }
 
                 //question 3
+                Console.WriteLine("did MJ make his high school basketball team?");
+                temp= Console.ReadLine();
+                temp=temp.ToUpper();
+
+                if (temp == "T")
+                {
+                    Console.WriteLine("Correct");
+                    Console.ReadLine();
+                    score++;
+                }
+                else
+                {
+                    Console.WriteLine("incorrect");
+                    Console.ReadLine(); 
+                }
 
 
 
